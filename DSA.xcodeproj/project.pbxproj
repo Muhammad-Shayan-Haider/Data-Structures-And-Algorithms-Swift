@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6EB5A5162926411A001551D0 /* Data Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB5A5162926411A001551D0 /* DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB5A5192926411A001551D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		6EB5A50D2926411A001551D0 = {
 			isa = PBXGroup;
 			children = (
-				6EB5A5182926411A001551D0 /* Data Structures */,
+				6EB5A5182926411A001551D0 /* DSA */,
 				6EB5A5172926411A001551D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,15 +49,23 @@
 		6EB5A5172926411A001551D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EB5A5162926411A001551D0 /* Data Structures */,
+				6EB5A5162926411A001551D0 /* DSA */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EB5A5182926411A001551D0 /* Data Structures */ = {
+		6EB5A5182926411A001551D0 /* DSA */ = {
 			isa = PBXGroup;
 			children = (
+				6EB5A520292642C9001551D0 /* Data Structures */,
 				6EB5A5192926411A001551D0 /* main.swift */,
+			);
+			path = DSA;
+			sourceTree = "<group>";
+		};
+		6EB5A520292642C9001551D0 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = "Data Structures";
 			sourceTree = "<group>";
@@ -65,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EB5A5152926411A001551D0 /* Data Structures */ = {
+		6EB5A5152926411A001551D0 /* DSA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EB5A51D2926411A001551D0 /* Build configuration list for PBXNativeTarget "Data Structures" */;
+			buildConfigurationList = 6EB5A51D2926411A001551D0 /* Build configuration list for PBXNativeTarget "DSA" */;
 			buildPhases = (
 				6EB5A5122926411A001551D0 /* Sources */,
 				6EB5A5132926411A001551D0 /* Frameworks */,
@@ -77,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Data Structures";
+			name = DSA;
 			productName = "Data Structures";
-			productReference = 6EB5A5162926411A001551D0 /* Data Structures */;
+			productReference = 6EB5A5162926411A001551D0 /* DSA */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6EB5A5112926411A001551D0 /* Build configuration list for PBXProject "Data Structures" */;
+			buildConfigurationList = 6EB5A5112926411A001551D0 /* Build configuration list for PBXProject "DSA" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EB5A5152926411A001551D0 /* Data Structures */,
+				6EB5A5152926411A001551D0 /* DSA */,
 			);
 		};
 /* End PBXProject section */
@@ -265,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EB5A5112926411A001551D0 /* Build configuration list for PBXProject "Data Structures" */ = {
+		6EB5A5112926411A001551D0 /* Build configuration list for PBXProject "DSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EB5A51B2926411A001551D0 /* Debug */,
@@ -274,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EB5A51D2926411A001551D0 /* Build configuration list for PBXNativeTarget "Data Structures" */ = {
+		6EB5A51D2926411A001551D0 /* Build configuration list for PBXNativeTarget "DSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EB5A51E2926411A001551D0 /* Debug */,
