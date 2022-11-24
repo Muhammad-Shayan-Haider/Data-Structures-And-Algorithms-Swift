@@ -7,17 +7,21 @@
 
 import Foundation
 
-var stack = Stack<Int>()
+var queue = Queue<Int>()
 
-stack.push(elem: 10)
-stack.push(elem: 9)
-stack.push(elem: 8)
-stack.push(elem: 7)
-stack.push(elem: 6)
+queue.enqueue(elem: 10)
+queue.enqueue(elem: 9)
+queue.enqueue(elem: 8)
+queue.enqueue(elem: 7)
+queue.enqueue(elem: 6)
 
-print(stack.peek())
+print(queue.peek())
 
-stack.pop()
+print(queue.dequeue())
 
-stack.print()
+queue.print()
+
+print(queue.dequeue())
+
+queue.print()
 
