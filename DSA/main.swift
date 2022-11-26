@@ -7,21 +7,14 @@
 
 import Foundation
 
-var queue = Queue<Int>()
+var pq = PriorityQueue<Int>(elems: [6, 5, 4, 3, 2, 1])
 
-queue.enqueue(elem: 10)
-queue.enqueue(elem: 9)
-queue.enqueue(elem: 8)
-queue.enqueue(elem: 7)
-queue.enqueue(elem: 6)
+pq.heapType = .min
 
-print(queue.peek())
+pq.print()
 
-print(queue.dequeue())
+print(pq.size())
 
-queue.print()
+pq.poll()
 
-print(queue.dequeue())
-
-queue.print()
-
+pq.print()
