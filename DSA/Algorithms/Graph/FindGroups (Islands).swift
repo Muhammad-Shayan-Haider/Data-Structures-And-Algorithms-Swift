@@ -17,6 +17,8 @@ import Foundation
              [0, 0, 0, 0, 0],
              [0, 0, 0, 0, 0],
              [1, 1, 0, 0, 1]] There are 3 groups
+ 
+ ref: https://leetcode.com/problems/number-of-islands/
  */
 
 class NoOfGroupsFinder {
