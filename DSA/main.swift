@@ -7,5 +7,5 @@
 
 import Foundation
 
-var arr: [Int] = [1, 2, 3, 4]
-print(rotate(&arr, 3))
+var arr: [Int] = [3, 2, 4, 3]
+print(findMissingRolls(A: arr, F: 2, M: 4)) // [6, 6]

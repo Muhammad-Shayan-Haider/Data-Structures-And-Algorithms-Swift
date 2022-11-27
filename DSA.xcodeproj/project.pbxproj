@@ -15,6 +15,7 @@
 		6EA5825729333F71008FE0D3 /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA5825629333F71008FE0D3 /* CyclicRotation.swift */; };
 		6EA58259293344F7008FE0D3 /* OddOccurrencesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA58258293344F7008FE0D3 /* OddOccurrencesInArray.swift */; };
 		6EA5825B29334911008FE0D3 /* PermMissingElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA5825A29334911008FE0D3 /* PermMissingElem.swift */; };
+		6EA5825D29338B1A008FE0D3 /* FindMissingRolls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA5825C29338B1A008FE0D3 /* FindMissingRolls.swift */; };
 		6EB5A51A2926411A001551D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5A5192926411A001551D0 /* main.swift */; };
 		6ECF77BF292B691100144231 /* FindGroups (Islands).swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF77BE292B691100144231 /* FindGroups (Islands).swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		6EA5825629333F71008FE0D3 /* CyclicRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotation.swift; sourceTree = "<group>"; };
 		6EA58258293344F7008FE0D3 /* OddOccurrencesInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOccurrencesInArray.swift; sourceTree = "<group>"; };
 		6EA5825A29334911008FE0D3 /* PermMissingElem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermMissingElem.swift; sourceTree = "<group>"; };
+		6EA5825C29338B1A008FE0D3 /* FindMissingRolls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMissingRolls.swift; sourceTree = "<group>"; };
 		6EB5A5162926411A001551D0 /* DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB5A5192926411A001551D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6ECF77BE292B691100144231 /* FindGroups (Islands).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindGroups (Islands).swift"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				6EA5825629333F71008FE0D3 /* CyclicRotation.swift */,
 				6EA58258293344F7008FE0D3 /* OddOccurrencesInArray.swift */,
 				6EA5825A29334911008FE0D3 /* PermMissingElem.swift */,
+				6EA5825C29338B1A008FE0D3 /* FindMissingRolls.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				6EA3ED83292F227C004FB527 /* Stack.swift in Sources */,
 				6ECF77BF292B691100144231 /* FindGroups (Islands).swift in Sources */,
 				6EA5825429333AD7008FE0D3 /* BinaryGap.swift in Sources */,
+				6EA5825D29338B1A008FE0D3 /* FindMissingRolls.swift in Sources */,
 				6EA58259293344F7008FE0D3 /* OddOccurrencesInArray.swift in Sources */,
 				6EA23F0B2928F00F009989F6 /* DoublyLinkedList.swift in Sources */,
 				6EB5A51A2926411A001551D0 /* main.swift in Sources */,
