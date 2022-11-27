@@ -7,14 +7,6 @@
 
 import Foundation
 
-var pq = PriorityQueue<Int>(elems: [6, 5, 4, 3, 2, 1])
-
-pq.heapType = .min
-
-pq.print()
-
-print(pq.size())
-
-pq.poll()
-
-pq.print()
+print(binaryGap(1041)) // 5
+print(binaryGap(15)) // 0
+print(binaryGap(32)) // 0

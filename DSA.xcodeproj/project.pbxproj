@@ -11,6 +11,7 @@
 		6EA3ED83292F227C004FB527 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3ED82292F227C004FB527 /* Stack.swift */; };
 		6EA3ED85292F2860004FB527 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3ED84292F2860004FB527 /* Queue.swift */; };
 		6EA3ED87292F2DB6004FB527 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3ED86292F2DB6004FB527 /* PriorityQueue.swift */; };
+		6EA5825429333AD7008FE0D3 /* BinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA5825329333AD7008FE0D3 /* BinaryGap.swift */; };
 		6EB5A51A2926411A001551D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5A5192926411A001551D0 /* main.swift */; };
 		6ECF77BF292B691100144231 /* FindGroups (Islands).swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF77BE292B691100144231 /* FindGroups (Islands).swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		6EA3ED82292F227C004FB527 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		6EA3ED84292F2860004FB527 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		6EA3ED86292F2DB6004FB527 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		6EA5825329333AD7008FE0D3 /* BinaryGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGap.swift; sourceTree = "<group>"; };
 		6EB5A5162926411A001551D0 /* DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB5A5192926411A001551D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6ECF77BE292B691100144231 /* FindGroups (Islands).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindGroups (Islands).swift"; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EA5825229333AB1008FE0D3 /* Two Pointers */ = {
+			isa = PBXGroup;
+			children = (
+				6EA5825329333AD7008FE0D3 /* BinaryGap.swift */,
+			);
+			path = "Two Pointers";
+			sourceTree = "<group>";
+		};
 		6EB5A50D2926411A001551D0 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 		6ECF77BD292B68EA00144231 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				6EA5825229333AB1008FE0D3 /* Two Pointers */,
 				6ECF77C0292B6B4900144231 /* Graph */,
 			);
 			path = Algorithms;
@@ -162,6 +173,7 @@
 				6EA3ED85292F2860004FB527 /* Queue.swift in Sources */,
 				6EA3ED83292F227C004FB527 /* Stack.swift in Sources */,
 				6ECF77BF292B691100144231 /* FindGroups (Islands).swift in Sources */,
+				6EA5825429333AD7008FE0D3 /* BinaryGap.swift in Sources */,
 				6EA23F0B2928F00F009989F6 /* DoublyLinkedList.swift in Sources */,
 				6EB5A51A2926411A001551D0 /* main.swift in Sources */,
 				6EA3ED87292F2DB6004FB527 /* PriorityQueue.swift in Sources */,
