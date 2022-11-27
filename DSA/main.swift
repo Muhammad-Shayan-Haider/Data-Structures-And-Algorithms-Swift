@@ -7,6 +7,5 @@
 
 import Foundation
 
-print(binaryGap(1041)) // 5
-print(binaryGap(15)) // 0
-print(binaryGap(32)) // 0
+var arr: [Int] = [1, 2, 3, 4]
+print(rotate(&arr, 3))
