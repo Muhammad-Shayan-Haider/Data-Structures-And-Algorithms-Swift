@@ -180,4 +180,28 @@ public class BinarySearchTree<T> where T: Comparable {
             print(node.data)
         }
     }
+    
+    private func printBST(prefix: String, node: TreeNode?, isLeft: Bool) {
+        if let node {
+            print(prefix, terminator: "")
+
+            isLeft ? print("├──", terminator: "") : print("└──", terminator: "")
+            
+            var child = ""
+            if let root, node.data == root.data {
+                child = ""
+            } else {
+                child = isLeft ? "Left " : "Right "
+            }
+            
+            print("\(child)\(node.data)")
+
+            printBST(prefix: prefix + (isLeft ? "│   " : "    "), node: node.left, isLeft: true)
+            printBST(prefix: prefix + (isLeft ? "│   " : "    "), node: node.right, isLeft: false)
+        }
+    }
+
+    public func printBST() {
+        printBST(prefix: "", node: root, isLeft: false)
+    }
 }

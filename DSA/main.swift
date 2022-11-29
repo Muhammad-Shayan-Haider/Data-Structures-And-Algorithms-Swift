@@ -7,5 +7,14 @@
 
 import Foundation
 
-var arr: [Int] = [3, 2, 4, 3]
-print(findMissingRolls(A: arr, F: 2, M: 4)) // [6, 6]
+var bst = BinarySearchTree<Int>()
+
+bst.add(elem: 2)
+bst.add(elem: 16)
+bst.add(elem: 3)
+bst.add(elem: 4)
+bst.add(elem: 5)
+bst.add(elem: 1)
+
+
+bst.printBST()
