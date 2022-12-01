@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E267AC32938AB58007F35C1 /* HashTableSeparateChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E267AC22938AB58007F35C1 /* HashTableSeparateChaining.swift */; };
 		6E3AAB462935E80700791A1A /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AAB452935E80700791A1A /* BinarySearchTree.swift */; };
 		6EA23F0B2928F00F009989F6 /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA23F0A2928F00F009989F6 /* DoublyLinkedList.swift */; };
 		6EA3ED83292F227C004FB527 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3ED82292F227C004FB527 /* Stack.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6E267AC22938AB58007F35C1 /* HashTableSeparateChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTableSeparateChaining.swift; sourceTree = "<group>"; };
 		6E3AAB452935E80700791A1A /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		6EA23F0A2928F00F009989F6 /* DoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedList.swift; sourceTree = "<group>"; };
 		6EA3ED82292F227C004FB527 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				6EA3ED84292F2860004FB527 /* Queue.swift */,
 				6EA3ED86292F2DB6004FB527 /* PriorityQueue.swift */,
 				6E3AAB452935E80700791A1A /* BinarySearchTree.swift */,
+				6E267AC22938AB58007F35C1 /* HashTableSeparateChaining.swift */,
 			);
 			path = "Data Structures";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				6EA3ED83292F227C004FB527 /* Stack.swift in Sources */,
 				6ECF77BF292B691100144231 /* FindGroups (Islands).swift in Sources */,
 				6EA5825429333AD7008FE0D3 /* BinaryGap.swift in Sources */,
+				6E267AC32938AB58007F35C1 /* HashTableSeparateChaining.swift in Sources */,
 				6EA5825D29338B1A008FE0D3 /* FindMissingRolls.swift in Sources */,
 				6EA58259293344F7008FE0D3 /* OddOccurrencesInArray.swift in Sources */,
 				6EA23F0B2928F00F009989F6 /* DoublyLinkedList.swift in Sources */,
