@@ -43,7 +43,7 @@ public class BinarySearchTree<T> where T: Comparable {
     
     private func add(_ node: TreeNode?, elem: T) -> TreeNode? {
         var newNode: TreeNode? = node
-        if node == nil { // leaf node
+        if node == nil { // leaf node or root is nil
             newNode = TreeNode(data: elem)
         } else {
             if let data = node?.data {
@@ -54,7 +54,7 @@ public class BinarySearchTree<T> where T: Comparable {
                 }
             }
         }
-        return newNode
+        return newNode // recursive calls will backtrack and pop from stack, and when last call pops, it returns root.
     }
     
     public func remove(elem: T) -> Bool {
@@ -67,7 +67,7 @@ public class BinarySearchTree<T> where T: Comparable {
     }
     
     private func remove(_ node: TreeNode?, elem: T) -> TreeNode? {
-        if node == nil { // base case root is nil
+        if node == nil { // base case root is nil or leaf node
             return node
         }
         var copyOfNode: TreeNode? = node
@@ -102,7 +102,7 @@ public class BinarySearchTree<T> where T: Comparable {
                 }
             }
         }
-        return copyOfNode
+        return copyOfNode // recursive calls will backtrack and pop from stack, and when last call pops, it returns root.
     }
     
     private func digLeft(_ node: TreeNode?) -> TreeNode? {

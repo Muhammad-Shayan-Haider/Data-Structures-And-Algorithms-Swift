@@ -9,12 +9,16 @@ import Foundation
 
 var bst = BinarySearchTree<Int>()
 
+bst.add(elem: 10)
 bst.add(elem: 2)
-bst.add(elem: 16)
-bst.add(elem: 3)
-bst.add(elem: 4)
-bst.add(elem: 5)
+bst.add(elem: 15)
 bst.add(elem: 1)
+bst.add(elem: 3)
+bst.add(elem: 12)
+bst.add(elem: 16)
 
+bst.remove(elem: 1)
+bst.remove(elem: 2)
+bst.remove(elem: 10)
 
 bst.printBST()
