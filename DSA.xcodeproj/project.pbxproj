@@ -95,6 +95,7 @@
 		6EA5825529333F57008FE0D3 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				6E42B313293B97E4004197F3 /* Sorting */,
 				6EA5825229333AB1008FE0D3 /* Two Pointers */,
 				6EA5825629333F71008FE0D3 /* CyclicRotation.swift */,
 				6EA58258293344F7008FE0D3 /* OddOccurrencesInArray.swift */,
@@ -147,7 +148,6 @@
 		6ECF77BD292B68EA00144231 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				6E42B313293B97E4004197F3 /* Sorting */,
 				6E42B310293B6BCD004197F3 /* String */,
 				6EA5825529333F57008FE0D3 /* Array */,
 				6ECF77C0292B6B4900144231 /* Graph */,
