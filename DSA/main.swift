@@ -7,18 +7,16 @@
 
 import Foundation
 
-var bst = BinarySearchTree<Int>()
+var avl = AVLTree<Int>()
 
-bst.add(elem: 10)
-bst.add(elem: 2)
-bst.add(elem: 15)
-bst.add(elem: 1)
-bst.add(elem: 3)
-bst.add(elem: 12)
-bst.add(elem: 16)
+avl.add(elem: 1)
+avl.add(elem: 2)
+avl.add(elem: 3)
+avl.add(elem: 4)
+avl.add(elem: 5)
+avl.add(elem: 6)
+avl.add(elem: 7)
 
-bst.remove(elem: 1)
-bst.remove(elem: 2)
-bst.remove(elem: 10)
+avl.remove(elem: 7)
 
-bst.printBST()
+avl.printAVL()
