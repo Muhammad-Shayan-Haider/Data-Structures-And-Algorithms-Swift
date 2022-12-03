@@ -7,4 +7,8 @@
 
 import Foundation
 
-print(isPalindrome(str: "10101"))
+var arr = [6, 5, 4, 3, 2, 1]
+
+mergeSort(arr: &arr, left: .zero, right: arr.count - 1)
+
+print(arr)
