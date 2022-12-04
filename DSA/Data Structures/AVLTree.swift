@@ -310,12 +310,8 @@ public class AVLTree<T> where T: Comparable {
             Swift.print(node!.data)
             return
         }
-        if node?.left != nil {
-            printLeaves(node: node?.left)
-        }
-        if node?.right != nil {
-            printLeaves(node: node?.right)
-        }
+        printLeaves(node: node?.left)
+        printLeaves(node: node?.right)
     }
 
     public func printAVL() {
