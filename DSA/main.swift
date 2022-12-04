@@ -7,10 +7,11 @@
 
 import Foundation
 
-var avl = AVLTree<Int>()
-for i in 0..<10 {
-    avl.add(elem: i)
-}
+let graph = ["a": ["b", "c"],
+             "b": ["d"],
+             "c": ["e"],
+             "d": ["f"],
+             "e": [],
+             "f": []]
 
-avl.printLeaves()
-avl.printAVL()
+depthFirstSearch(graph: graph, source: "a")

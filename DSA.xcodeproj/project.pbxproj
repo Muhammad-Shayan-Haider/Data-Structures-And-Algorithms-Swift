@@ -22,6 +22,7 @@
 		6EA5825B29334911008FE0D3 /* PermMissingElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA5825A29334911008FE0D3 /* PermMissingElem.swift */; };
 		6EA5825D29338B1A008FE0D3 /* FindMissingRolls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA5825C29338B1A008FE0D3 /* FindMissingRolls.swift */; };
 		6EB5A51A2926411A001551D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5A5192926411A001551D0 /* main.swift */; };
+		6ECF3794293CA8A7006F4A3C /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF3793293CA8A7006F4A3C /* DFS.swift */; };
 		6ECF77BF292B691100144231 /* FindGroups (Islands).swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF77BE292B691100144231 /* FindGroups (Islands).swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		6EA5825C29338B1A008FE0D3 /* FindMissingRolls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMissingRolls.swift; sourceTree = "<group>"; };
 		6EB5A5162926411A001551D0 /* DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB5A5192926411A001551D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6ECF3793293CA8A7006F4A3C /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		6ECF77BE292B691100144231 /* FindGroups (Islands).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindGroups (Islands).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				6ECF77BE292B691100144231 /* FindGroups (Islands).swift */,
+				6ECF3793293CA8A7006F4A3C /* DFS.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				6EA5825429333AD7008FE0D3 /* BinaryGap.swift in Sources */,
 				6E267AC32938AB58007F35C1 /* HashTableSeparateChaining.swift in Sources */,
 				6EA5825D29338B1A008FE0D3 /* FindMissingRolls.swift in Sources */,
+				6ECF3794293CA8A7006F4A3C /* DFS.swift in Sources */,
 				6EA58259293344F7008FE0D3 /* OddOccurrencesInArray.swift in Sources */,
 				6EA23F0B2928F00F009989F6 /* DoublyLinkedList.swift in Sources */,
 				6E3AAB462935E80700791A1A /* BinarySearchTree.swift in Sources */,
