@@ -7,7 +7,7 @@
 
 import Foundation
 
-// BFS without cycles in graph.
+// BFS for acyclic graph.
 func breadtgFirstSearchIterative(graph: [String: [String]], source: String) {
     var queue = Queue<String>()
     queue.enqueue(elem: source)

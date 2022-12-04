@@ -7,7 +7,7 @@
 
 import Foundation
 
-// DFS without cycles in graph.
+// DFS for acyclic graph.
 func depthFirstSearchIterative(graph: [String: [String]], source: String) {
     var stack = Stack<String>()
     stack.push(elem: source)
@@ -22,7 +22,7 @@ func depthFirstSearchIterative(graph: [String: [String]], source: String) {
     }
 }
 
-// DFS without cycles in graph.
+// DFS for acyclic graph.
 func depthFirstSearchRecursive(graph: [String: [String]], source: String) {
     print(source)
     
