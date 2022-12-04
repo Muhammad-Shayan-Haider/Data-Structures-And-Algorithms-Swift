@@ -297,6 +297,26 @@ public class AVLTree<T> where T: Comparable {
             printAVL(prefix: prefix + (isLeft ? "│   " : "    "), node: node.right, isLeft: false)
         }
     }
+    
+    public func printLeaves() {
+        printLeaves(node: root)
+    }
+    
+    private func printLeaves(node: AVLTreeNode?) {
+        if node == nil {
+            return
+        }
+        if node?.left == nil && node?.right == nil {
+            Swift.print(node!.data)
+            return
+        }
+        if node?.left != nil {
+            printLeaves(node: node?.left)
+        }
+        if node?.right != nil {
+            printLeaves(node: node?.right)
+        }
+    }
 
     public func printAVL() {
         printAVL(prefix: "", node: root, isLeft: false)

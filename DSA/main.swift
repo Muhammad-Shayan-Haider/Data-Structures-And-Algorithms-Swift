@@ -7,8 +7,10 @@
 
 import Foundation
 
-var arr = [6, 5, 4, 3, 2, 1]
+var avl = AVLTree<Int>()
+for i in 0..<10 {
+    avl.add(elem: i)
+}
 
-mergeSort(arr: &arr, left: .zero, right: arr.count - 1)
-
-print(arr)
+avl.printLeaves()
+avl.printAVL()
