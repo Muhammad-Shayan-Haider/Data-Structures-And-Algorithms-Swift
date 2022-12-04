@@ -14,4 +14,4 @@ let graph = ["a": ["b", "c"],
              "e": [],
              "f": []]
 
-depthFirstSearch(graph: graph, source: "a")
+depthFirstSearchRecursive(graph: graph, source: "a")

@@ -7,7 +7,8 @@
 
 import Foundation
 
-func depthFirstSearch(graph: [String: [String]], source: String) {
+// DFS without cycles in graph.
+func depthFirstSearchIterative(graph: [String: [String]], source: String) {
     var stack = Stack<String>()
     stack.push(elem: source)
     
@@ -18,5 +19,14 @@ func depthFirstSearch(graph: [String: [String]], source: String) {
         for neighbour in graph[current]! {
             stack.push(elem: neighbour)
         }
+    }
+}
+
+// DFS without cycles in graph.
+func depthFirstSearchRecursive(graph: [String: [String]], source: String) {
+    print(source)
+    
+    for neighbour in graph[source]! {
+        depthFirstSearchRecursive(graph: graph, source: neighbour)
     }
 }
