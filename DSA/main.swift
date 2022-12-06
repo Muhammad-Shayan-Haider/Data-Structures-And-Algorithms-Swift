@@ -14,4 +14,4 @@ let graph = ["a": ["b", "c"],
              "e": [],
              "f": []]
 
-breadtgFirstSearchIterative(graph: graph, source: "a")
+print(hasPath(graph: graph, src: "a", destination: "f"))
