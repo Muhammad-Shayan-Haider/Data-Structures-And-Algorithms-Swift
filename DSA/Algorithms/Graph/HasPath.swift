@@ -8,7 +8,7 @@
 import Foundation
 
 
-/// Checks if path exists between source and destination in an acyclic graph using dfs.
+/// Checks if path exists between source and destination in an acyclic directed graph using dfs.
 /// - Parameters:
 ///   - graph: Dictionary of adjacency list.
 ///   - src: Source node.
