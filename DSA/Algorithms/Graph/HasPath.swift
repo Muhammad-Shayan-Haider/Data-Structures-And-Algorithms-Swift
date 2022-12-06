@@ -26,3 +26,41 @@ func hasPath(graph: [String: [String]], src: String, destination: String) -> Boo
     }
     return false
 }
+
+
+func hasPathUndirected(edges: [[String]], src: String, destination: String) -> Bool {
+    let graph = buildGraphFromEdges(edges: edges)
+    var set = Set<String>()
+    return hasPathUndirected(graph: graph, src: src, destination: destination, visited: &set)
+}
+
+func hasPathUndirected(graph: [String: [String]], src: String, destination: String, visited: inout Set<String>) -> Bool {
+    if visited.contains(src) { return false }
+    if src == destination {
+        return true
+    }
+    visited.insert(src)
+    
+    for neighbour in graph[src]! {
+        if hasPathUndirected(graph: graph, src: neighbour, destination: destination, visited: &visited) {
+            return true
+        }
+    }
+    return false
+}
+
+func buildGraphFromEdges(edges: [[String]]) -> [String: [String]] {
+    var graph: [String: [String]] = [:]
+    for edge in edges {
+        let (a, b) = (edge[0], edge[1])
+        if graph[a] == nil {
+            graph[a] = []
+        }
+        if graph[b] == nil {
+            graph[b] = []
+        }
+        graph[a]?.append(b)
+        graph[b]?.append(a)
+    }
+    return graph
+}

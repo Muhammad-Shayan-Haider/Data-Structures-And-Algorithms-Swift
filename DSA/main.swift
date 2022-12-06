@@ -14,4 +14,11 @@ let graph = ["a": ["b", "c"],
              "e": [],
              "f": []]
 
-print(hasPath(graph: graph, src: "a", destination: "f"))
+let edges = [
+    ["i", "j"],
+    ["k", "i"],
+    ["m", "k"],
+    ["k", "l"],
+    ["o", "n"]
+]
+print(hasPathUndirected(edges: edges, src: "l", destination: "j"))
