@@ -9,5 +9,5 @@ import Foundation
 
 var arr = [6, 5, 4, 3, 2, 1]
 
-selectionSort(arr: &arr)
+insertionSort(arr: &arr)
 print(arr)
