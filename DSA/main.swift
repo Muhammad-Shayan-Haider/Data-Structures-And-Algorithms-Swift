@@ -9,5 +9,5 @@ import Foundation
 
 var arr = [6, 5, 4, 3, 2, 1]
 
-quickSort(arr: &arr)
-print(arr)
+var thirdLargest = findKthLargest(array: arr, k: 2)
+print(thirdLargest)
