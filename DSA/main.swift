@@ -7,7 +7,4 @@
 
 import Foundation
 
-var arr = [6, 5, 4, 3, 2, 1]
-
-var thirdLargest = findKthLargest(array: arr, k: 2)
-print(thirdLargest)
+print(findCommonSmallestInSortedArrays(arr1: [1, 5, 10], arr2: [2, 6, 10], arr3: [3, 7, 10]))
