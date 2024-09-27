@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(findCommonSmallestInSortedArrays(arr1: [1, 5, 10], arr2: [2, 6, 10], arr3: [3, 7, 10]))
+print(findDuplicates(arr: [1, 2, 3, 1]))
