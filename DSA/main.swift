@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(isPangram(string: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"))
+print(reverseVowels(str: "hello"))
