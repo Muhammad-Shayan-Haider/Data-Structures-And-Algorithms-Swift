@@ -38,6 +38,7 @@
 		E40993052CA6BD2F00356F11 /* Pangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40993042CA6BD2D00356F11 /* Pangram.swift */; };
 		E410E0EB2CA5775300FCB730 /* CommonSmallestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410E0EA2CA5774500FCB730 /* CommonSmallestNumber.swift */; };
 		E4176EF92CA1758F00455847 /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4176EF82CA1758F00455847 /* Pairs.swift */; };
+		E4E4F6162CAC392B00C45E03 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F6152CAC392B00C45E03 /* Anagram.swift */; };
 		E4F06D832CAAE13200FB5B28 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F06D822CAAE13200FB5B28 /* ReverseVowels.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,7 @@
 		E40993042CA6BD2D00356F11 /* Pangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pangram.swift; sourceTree = "<group>"; };
 		E410E0EA2CA5774500FCB730 /* CommonSmallestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSmallestNumber.swift; sourceTree = "<group>"; };
 		E4176EF82CA1758F00455847 /* Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairs.swift; sourceTree = "<group>"; };
+		E4E4F6152CAC392B00C45E03 /* Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
 		E4F06D822CAAE13200FB5B28 /* ReverseVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 				6E42B311293B6BE3004197F3 /* PalindromeRecursive.swift */,
 				6E1FB0B22945B4250059B1D3 /* RansomNote.swift */,
 				E4F06D822CAAE13200FB5B28 /* ReverseVowels.swift */,
+				E4E4F6152CAC392B00C45E03 /* Anagram.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				6EA5825D29338B1A008FE0D3 /* FindMissingRolls.swift in Sources */,
 				E40993032CA6BAF800356F11 /* Duplicates.swift in Sources */,
 				6ECF3794293CA8A7006F4A3C /* DFS.swift in Sources */,
+				E4E4F6162CAC392B00C45E03 /* Anagram.swift in Sources */,
 				6EC96233293F0E500036AC81 /* LargestGraphComponent.swift in Sources */,
 				6ED26487297685C300DA626E /* KthLargest.swift in Sources */,
 				6EA58259293344F7008FE0D3 /* OddOccurrencesInArray.swift in Sources */,

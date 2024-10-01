@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(reverseVowels(str: "hello"))
+print(isAnagram(str1: "rat", str2: "car"))
