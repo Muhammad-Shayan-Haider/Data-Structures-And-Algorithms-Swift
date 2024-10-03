@@ -38,6 +38,7 @@
 		E40993052CA6BD2F00356F11 /* Pangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40993042CA6BD2D00356F11 /* Pangram.swift */; };
 		E410E0EB2CA5775300FCB730 /* CommonSmallestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410E0EA2CA5774500FCB730 /* CommonSmallestNumber.swift */; };
 		E4176EF92CA1758F00455847 /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4176EF82CA1758F00455847 /* Pairs.swift */; };
+		E4E1A32D2CAEC1E200175362 /* NumberOfGoodPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1A32C2CAEC1E200175362 /* NumberOfGoodPairs.swift */; };
 		E4E4F6162CAC392B00C45E03 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F6152CAC392B00C45E03 /* Anagram.swift */; };
 		E4E4F6182CAC428100C45E03 /* ShortestWordDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F6172CAC428100C45E03 /* ShortestWordDistance.swift */; };
 		E4F06D832CAAE13200FB5B28 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F06D822CAAE13200FB5B28 /* ReverseVowels.swift */; };
@@ -88,6 +89,7 @@
 		E40993042CA6BD2D00356F11 /* Pangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pangram.swift; sourceTree = "<group>"; };
 		E410E0EA2CA5774500FCB730 /* CommonSmallestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSmallestNumber.swift; sourceTree = "<group>"; };
 		E4176EF82CA1758F00455847 /* Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairs.swift; sourceTree = "<group>"; };
+		E4E1A32C2CAEC1E200175362 /* NumberOfGoodPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfGoodPairs.swift; sourceTree = "<group>"; };
 		E4E4F6152CAC392B00C45E03 /* Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
 		E4E4F6172CAC428100C45E03 /* ShortestWordDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortestWordDistance.swift; sourceTree = "<group>"; };
 		E4F06D822CAAE13200FB5B28 /* ReverseVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				6EA5825A29334911008FE0D3 /* PermMissingElem.swift */,
 				6EA5825C29338B1A008FE0D3 /* FindMissingRolls.swift */,
 				6E1FB0AC2945A7BE0059B1D3 /* FizzBuzz.swift */,
+				E4E1A32C2CAEC1E200175362 /* NumberOfGoodPairs.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				E4176EF92CA1758F00455847 /* Pairs.swift in Sources */,
 				E4F06D832CAAE13200FB5B28 /* ReverseVowels.swift in Sources */,
 				6EA5825429333AD7008FE0D3 /* BinaryGap.swift in Sources */,
+				E4E1A32D2CAEC1E200175362 /* NumberOfGoodPairs.swift in Sources */,
 				6E267AC32938AB58007F35C1 /* HashTableSeparateChaining.swift in Sources */,
 				6EB52B1C293EFA3900A68F1A /* HasPath.swift in Sources */,
 				6E1FB0AD2945A7BE0059B1D3 /* FizzBuzz.swift in Sources */,

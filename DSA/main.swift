@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(findMinimunDistanceIn(word1: "word1", word2: "word2", words: ["word1", "word1", "word2", "word2", "word1"]))
+print(findNumberOfGoodPairs(arr: [1, 2, 3, 1, 1, 3]))
