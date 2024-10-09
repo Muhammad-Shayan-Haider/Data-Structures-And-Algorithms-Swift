@@ -7,4 +7,5 @@
 
 import Foundation
 
-print(findPair(for: 11, in: [2, 5, 9, 11]))
+print(findNonDuplicateInstances(A: [2, 3, 3, 3, 6, 9, 9]))
+// [0,1,2,3,4,0,2,1,3,1]

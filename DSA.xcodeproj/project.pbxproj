@@ -44,6 +44,7 @@
 		E4E4F6182CAC428100C45E03 /* ShortestWordDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F6172CAC428100C45E03 /* ShortestWordDistance.swift */; };
 		E4F06D832CAAE13200FB5B28 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F06D822CAAE13200FB5B28 /* ReverseVowels.swift */; };
 		E4F1B4182CB541770001B333 /* PairWithTargetSumInSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1B4172CB541770001B333 /* PairWithTargetSumInSortedArray.swift */; };
+		E4FF7F7F2CB6831500F5D3BD /* NonDuplicateInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF7F7E2CB6831500F5D3BD /* NonDuplicateInstances.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +98,7 @@
 		E4E4F6172CAC428100C45E03 /* ShortestWordDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortestWordDistance.swift; sourceTree = "<group>"; };
 		E4F06D822CAAE13200FB5B28 /* ReverseVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		E4F1B4172CB541770001B333 /* PairWithTargetSumInSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairWithTargetSumInSortedArray.swift; sourceTree = "<group>"; };
+		E4FF7F7E2CB6831500F5D3BD /* NonDuplicateInstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonDuplicateInstances.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				6EA5825329333AD7008FE0D3 /* BinaryGap.swift */,
 				6ED26486297685C300DA626E /* KthLargest.swift */,
 				E4F1B4172CB541770001B333 /* PairWithTargetSumInSortedArray.swift */,
+				E4FF7F7E2CB6831500F5D3BD /* NonDuplicateInstances.swift */,
 			);
 			path = "Two Pointers";
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			files = (
 				6EA3ED85292F2860004FB527 /* Queue.swift in Sources */,
 				6E42B30F293B1D07004197F3 /* AVLTree.swift in Sources */,
+				E4FF7F7F2CB6831500F5D3BD /* NonDuplicateInstances.swift in Sources */,
 				6E42B315293B97F3004197F3 /* MergeSort.swift in Sources */,
 				E40DCADE2CB010520071006A /* Sqrt.swift in Sources */,
 				6E42B312293B6BE3004197F3 /* PalindromeRecursive.swift in Sources */,
