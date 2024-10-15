@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(squareSortedArray(arr: [-5, -4, -3, -2, 0]))
+print(findTripletSumToZero(arr: [1, 0, 0, 0]))
