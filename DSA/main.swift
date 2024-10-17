@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(findTripletSumCloseToTarget(arr: [0, 0, 1, 1, 2, 6], target: 5))
+print(findTripletsWithSmallerSum(arr: [1, 2, 3, 4, 5], target: 10))
